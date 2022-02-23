@@ -7,6 +7,19 @@ This study considers real data collected from one of the retail bank, from May 2
 ### Purpose
 Investigate which factors contribute to a successful contact (i.e. the client subscribes to the product).
 
+
+### Analysis Overview:
+* Data preparation (handle missing values, group variables, normalization) 
+* Bivariate Analysis (correlation coefficients, boxplots, contingency tables)
+* Logistic Regression Model Selection:
+  * Remove problematic values (coefficients with “NA” values, coefficients whose value and standard error is very “high”)
+  * Hypothesis testing (Wald test, Goodness of fit test)
+  * Variable Selection (Stepwise procedures, Multi-collinearity testing)
+  * Model Interpretation
+  * Assumptions of logistic regression
+  * Conclusions and Discussions
+
+
 # Retail Bank Data
 
 ## Output variable
