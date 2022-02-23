@@ -836,7 +836,7 @@ sort(vif(model1)[,1])
 head(data16)
 data17<-data16[,-10]
 model1b<-glm(y ~ ., family = binomial(link = "logit"), data = data17)
-summary(model1b
+summary(model1b)
 
 ############  confint  ############
 confint(model1b)          
