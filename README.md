@@ -25,7 +25,7 @@ Investigate which factors contribute to a successful contact (i.e. the client su
 ### Output Variable
 Variable | Content
 --- | ---
-SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes','no')
+SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes', 'no')
 
 ### Input variables
 
