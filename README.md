@@ -30,10 +30,11 @@ SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes','no')
 ### Input variables
 
 ### Bank client data
-Bank client data | 
-Variable | Content
+
+
+Bank client data | Variables
 --- | ---
-1 - age (numeric)
+ | 1 - age (numeric)
 
 
 
