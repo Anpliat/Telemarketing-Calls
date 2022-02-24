@@ -22,14 +22,19 @@ Investigate which factors contribute to a successful contact (i.e. the client su
 
 # Retail Bank Data
 
-Output variable | Content
+### Output Variable
+Variable | Content
 --- | ---
 SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes','no')
 
-## Input variables
+### Input variables
 
 ### Bank client data
+Variable | Content
+--- | ---
 1 - age (numeric)
+
+
 2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
 4 - education (categorical: basic.4y','basic.6y','basic.9y', 'high.school','illiterate','professional.course', 'university.degree','unknown')
