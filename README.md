@@ -30,24 +30,16 @@ SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes','no')
 ### Input variables
 
 ### Bank client data
-
-
-Bank client data | Variables
+Variable | Content
 --- | ---
- | 1 - age (numeric)
+age | age of client (numeric)
+job | type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+marital | marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+education | education level (categorical: basic.4y','basic.6y','basic.9y', 'high.school','illiterate','professional.course', 'university.degree','unknown')
+default | has credit in default? (categorical: 'no','yes','unknown')
+housing | has housing loan? (categorical: 'no','yes','unknown')
+loan | has personal loan? (categorical: 'no','yes','unknown')
 
-
-
-
-### Bank client data
-
-1 - age (numeric)
-2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
-3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
-4 - education (categorical: basic.4y','basic.6y','basic.9y', 'high.school','illiterate','professional.course', 'university.degree','unknown')
-5 - default: has credit in default? (categorical: 'no','yes','unknown')
-6 - housing: has housing loan? (categorical: 'no','yes','unknown')
-7 - loan: has personal loan? (categorical: 'no','yes','unknown')
 
 ### related with the last contact of the current campaign:
 8 - contact: contact communication type (categorical: 'cellular','telephone') 
