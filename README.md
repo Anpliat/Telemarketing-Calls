@@ -22,8 +22,9 @@ Investigate which factors contribute to a successful contact (i.e. the client su
 
 # Retail Bank Data
 
-## Output variable
-* SUBSCRIBED - has the client subscribed a term deposit? (binary: 'yes','no')
+## Output variable | Content
+--- | ---
+SUBSCRIBED | Has the client subscribed a term deposit? (binary: 'yes','no')
 
 ## Input variables
 
